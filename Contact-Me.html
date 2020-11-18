@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>
+      Name: Mithila Deshpande
+      <br>
+      Address: 364 Aphelion Crescent, Nepean, ON K2J 6N4, Canada
+      <br>
+      Email: mithi87@gmail.com
+      <br>
+      Phone: 613-606-5476
+    </p>
+
+    <p>You can also contact me using <em><strong>Contact Form</strong></em> below.</p>
+    <form action="mailto:mithi87@gmail.com" method="post" enctype="text/plain">
+      <table>
+        <tr>
+          <td><label>Your Name:</label></td>
+          <td><input type="text" name="YourName" value=""></td>
+        </tr>
+        <tr>
+          <td><label>Email:</label></td>
+          <td><input type="email" name="Email" value=""></td>
+        </tr>
+        <tr>
+          <td><label>Phone:</label></td>
+          <td><input type="tel" name="Phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="" maxlength="12">
+        </tr>
+        <tr>
+          <td><label>Message:</label></td>
+          <td><textarea name="Message" rows="10" cols="22"></textarea></td>
+          <td>Max 500 characters allowed.</td>
+        </tr>
+        <tr>
+          <td><input type="submit" name="" value="Submit"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
